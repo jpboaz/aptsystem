@@ -1,0 +1,149 @@
+body {
+    font-family: 'Raleway', 'sans-serif';
+    background-color: #dfe6e9;
+    
+}
+
+.login {
+    position: relative;
+    height: 400px;
+    width: 405px;
+    margin: auto;
+    /*padding: 60px 60px;*/
+    background-color: #636e72;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 30px 100px -5px #000;
+    overflow: hidden;
+}
+
+
+
+.active {
+    border-bottom: 2px solid #55efc4;
+    position: center;
+}
+
+h2 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+h2:first-child{
+    padding-left: 0px;
+}
+
+span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    opacity: 1;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.text {
+    border: none;
+    width: 89%;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    background: rgba(0,0,0,0);
+}
+
+.text:focus + span {
+    opacity: 0.6;
+}
+
+input[type="text"],input[type="password"] {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+h2,span {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #55efc4;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    transition: background 1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #00b894;
+    transition: background 1s;
+}
+
+.appointment {
+    top: 60px;
+    bottom: 60px;
+    position: relative;
+    height: 800px;
+    width: 405px;
+    margin: auto;
+    /*padding: 60px 60px;*/
+    background-color: #636e72;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 30px 100px -5px #000;
+    overflow: hidden;
+}
+
+.aptBtn {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adminpanelbody {
+    top: 60px;
+    bottom: 60px;
+    position: relative;
+    height: 800px;
+    width: 405px;
+    margin: auto;
+    /*padding: 60px 60px;*/
+    background-color: #636e72;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 30px 100px -5px #000;
+    overflow: hidden;
+}
